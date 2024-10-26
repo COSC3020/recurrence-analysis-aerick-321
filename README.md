@@ -31,6 +31,6 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-When going through the loops the first one is n* n , the second is just n and the third is also n*n so the total time for the loops is $(n^2) * n * (n^2) = n^5$ so $O(n^5)$. The function is recursively called 3 times and since it is divided by 3 the time complexity of that is log3(n). The total complexity is $O(log3(n)*n^5)$
+Base case divides n until n <= 1. Calls mystery function 3 times and inside is n/3.  T(n) = 3T(n/3) + 1
 
 Geeksforgeeks.com for review on recurrence relations. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
