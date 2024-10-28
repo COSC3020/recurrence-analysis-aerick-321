@@ -39,7 +39,7 @@ $T(n) = 9T(n/9) +(n/3)^5 + n^5$
 
 $T(n) = 9(3T (n/27) +(n/9)^5) +(n/3)^5 + n^5$
 
-$T(n) =3^i T(n/3^i) + {\sum {j=0}^i-1 3^j/3^5^j *n^5}$
+$T(n) =3^i T(n/3^i)$ + $\sum {j=0}^i-1 3^j/{3^{5^j}} *n^5$
 
 Solving the recurrence relation you get T(n) ∈ O(n^5)
 
