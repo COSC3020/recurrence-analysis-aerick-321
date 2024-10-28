@@ -47,10 +47,10 @@ i = log3n
 
 $T(n) =3^{log3n} T(n/3^{log3n})$ + $\sum_{j=0}^{log3n-1} 3^j/{3^{5^j}} *n^5$
 
-n *1 +((n-1) /2) *n^5
+$n *1 +((n-1) /2) *n^5$
 
-simplifies to n + n^5
+simplifies to n + $n^5$
 
-Solving the recurrence relation you get T(n) ∈ O(n^5)
+Solving the recurrence relation you get $T(n) ∈ O(n^5)$
 
 Geeksforgeeks.com for review on recurrence relations. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
