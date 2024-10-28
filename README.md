@@ -31,6 +31,6 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-Base case divides n until n <= 1. Calls mystery function 3 times and inside is n/3.  T(n) = 3T(n/3) + 1
+Base case divides n until n <= 1. Calls mystery function 3 times and inside is n/3. The complexity of the loops are O(n^5) so T(n) = 3T(n/3) + n^5.
 
 Geeksforgeeks.com for review on recurrence relations. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
